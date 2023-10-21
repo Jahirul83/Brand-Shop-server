@@ -16,9 +16,9 @@ app.use(express.json());
 
 
 
-const uri = "mongodb+srv://brandDB:XdC09yw2oeeqwlxj@cluster0.i3hf6sp.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://brandDB:XdC09yw2oeeqwlxj@cluster0.i3hf6sp.mongodb.net/?retryWrites=true&w=majority";
 
-// const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.i3hf6sp.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.i3hf6sp.mongodb.net/?retryWrites=true&w=majority`;
 
 // console.log(uri);
 
